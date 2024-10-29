@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextSource"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter amount"
+        android:inputType="numberDecimal" />
+
+    <Spinner
+        android:id="@+id/spinnerSourceCurrency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/editTextTarget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Converted amount"
+        android:inputType="numberDecimal"
+        android:enabled="false" />
+
+    <Spinner
+        android:id="@+id/spinnerTargetCurrency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
